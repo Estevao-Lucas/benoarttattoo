@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,102 @@
     <title>Benoarttattoo</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <nav>
+            <a href="#home"><img src="assets/img/logo.png" alt=""></a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#galery">Galeria</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="assets/img/Benoart.jpg" alt="logo">
+        </section>
+        <section id="sobre">
+            <div class="information-content">
+                <img src="assets/img/artist.jpg" alt="artist">
+                <div class="information-content-about">
+                    <div class="information-content-text">
+                        <p>
+                        <h1>Bem vindo ao Studio Benoart</h1>
+                        <br>
+                        <p>No nosso Studio de Tatuagem, buscamos transformar a arte em uma expressão única e
+                            personalizada,
+                            marcando histórias e emoções em cada tatuagem que criamos.
+                        </p>
+                        <br>
+                        <h2>Explore nosso portfólio e descubra seu estilo</h2>
+                        <br>
+                        <p>
+                            Nossa missão é criar tatuagens que sejam verdadeiramente significativas e reflitam a
+                            individualidade
+                            de cada cliente. Valorizamos a qualidade e a segurança, utilizando equipamentos de última
+                            geração e
+                            aderindo rigorosamente aos mais altos padrões de higiene e esterilização.
+                        </p>
+                        </p>
+                    </div>
+                    <div class="information-buttons">
+                        <a href="#contato" class="information-buttons-contato">Contato</a>
+                        <a href="#galery" class="information-buttons-galeria">Galeria</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="galery">
+            <h1>GALERIA</h1>
+            <div class="galery-imgs">
+                <img src="assets/img/tatto1.jpg" alt="">
+                <img src="assets/img/tattoo2.jpg" alt="">
+                <img src="assets/img/tattoo3.jpg" alt="">
+            </div>
+        </section>
+        <section id="contato">
+            <h1>CONTATO</h1>
+            <div class="contato-contatos">
+                <div class="endereco">
+                    <img src="assets/img/icones/location.png" class="icon" alt="Icone de localizacao">
+                    <h2>Endereço</h2>
+                    <p class="paragrafo-end">QS 07, Lote 01, Taguatinga Sul - Taguatinga, Brasília - DF, 71966-700</p>
+                </div>
+                <div class="telefone">
+                    <img src="assets/img/icones/phone.png" class="icon" alt="Icone de telefone">
+                    <h2>Telefone</h2>
+                    <p class="paragrafo-end">(11) 99999-9999</p>
+                </div>
+                <div class="email">
+                    <img src="assets/img/icones/email.png" class="icon" alt="Icone de email">
+                    <h2>Email</h2>
+                    <p class="paragrafo-end">email@email.com</p>
+                </div>
+            </div>
+        </section>
+        <section id="formulario">
+            <h1>Agende um Horário</h1>
+            <form>
+                <div>
+                    <div>
+                        <input type="text" name="nome" id="nome" placeholder="Insira seu Nome">
+                        <input type="text" name="email" id="email" placeholder="Insira seu Email">
+                        <input type="text" name="telefone" id="telefone" placeholder="Insira seu Telefone">
+                    </div>
+                    <div>
+                        <textarea name="mensagem" id="mensagem" cols="25" rows="8" placeholder="Insira sua Mensagem"></textarea>
+                    </div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>@2023. Todos os direitos reservados</p>
+    </footer>
 </body>
+
 </html>
